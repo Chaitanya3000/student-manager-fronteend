@@ -1,0 +1,32 @@
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  margin-left: 2rem;
+  margin-right: 2rem;
+  border-bottom: 1px solid whitesmoke;
+}
+
+.nav h1 {
+  font-weight: 100;
+  color: whitesmoke;
+}
+
+.btn {
+  padding: 0.5rem 1rem;
+  background-color: whitesmoke;
+  color: black;
+}
+
+.btn:hover {
+  background-color: cyan;
+}
+
+.nav Link {
+  text-decoration: none;
+}
+
+.link {
+  text-decoration: none;
+}
