@@ -3,9 +3,9 @@ import StudentMarksGet from "./studentMarksGet";
 import { Link } from "react-router-dom";
 
 function studentMarks() {
-  var one = true;
+  var one = false;
   var two = true;
-  var three = true;
+  var three = false;
   return (
     <>
       <div className="thisPage">
