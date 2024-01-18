@@ -23,3 +23,23 @@
 .sideItems:hover {
   border-bottom: 1px solid whitesmoke;
 }
+
+.marks {
+    display: flex;
+    flex-direction: column;
+    width: 70rem;
+    align-items: center;
+    gap: 2rem;
+}
+
+.marks form {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.formItems {
+    border: none;
+    height: 2rem;
+    padding: 1rem 2rem;
+}
