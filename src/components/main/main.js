@@ -17,8 +17,8 @@ function Main() {
             trends, and access personalized feedback, all in one centralized
             hub.
           </p> */}
-          <Link to="/login" className="link">
-            <div className="btn">Login</div>
+          <Link to="/login" className="btn">
+            Login
           </Link>
         </div>
         <div className="animation">

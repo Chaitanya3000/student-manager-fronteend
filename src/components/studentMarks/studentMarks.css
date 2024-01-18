@@ -1,0 +1,25 @@
+.thisPage{
+    display: flex;
+}
+
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+  padding: 3rem 1rem;
+  width: 20vw;
+  border-right: 1px solid whitesmoke;
+  height: 87vh;
+}
+
+.sideItems {
+  padding: 0.5rem;
+  color: whitesmoke;
+  margin: 5px;
+  text-decoration: none;
+}
+
+.sideItems:hover {
+  border-bottom: 1px solid whitesmoke;
+}

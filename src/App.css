@@ -13,20 +13,13 @@
   color: whitesmoke;
 }
 
-.btn {
-  padding: 0.5rem 1rem;
-  background-color: whitesmoke;
-  color: black;
-}
-
-.btn:hover {
-  background-color: cyan;
-}
-
-.nav Link {
-  text-decoration: none;
-}
-
 .link {
+  padding: 0.5rem 1rem;
+  color: whitesmoke;
+  margin: 5px;
   text-decoration: none;
+}
+
+.link:hover {
+  border-bottom: 1px solid whitesmoke;
 }
