@@ -1,11 +1,13 @@
 import "./studentMarks.css";
 import StudentMarksGet from "./studentMarksGet";
+import StudentMarksPut from "./studentMarksPut";
+import StudentMarksUpdate from "./studentMarksUpdate";
 import { Link } from "react-router-dom";
 
 function studentMarks() {
-  var one = false;
+  var one = true;
   var two = true;
-  var three = false;
+  var three = true;
   return (
     <>
       <div className="thisPage">
@@ -16,8 +18,8 @@ function studentMarks() {
         </div>
         <div>
           {one ? <StudentMarksGet /> : <></>}
-          {two ? <StudentMarksGet /> : <></>}
-          {three ? <StudentMarksGet /> : <></>}
+          {two ? <StudentMarksUpdate /> : <></>}
+          {three ? <StudentMarksPut /> : <></>}
         </div>
       </div>
     </>

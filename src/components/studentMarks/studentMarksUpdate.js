@@ -1,10 +1,10 @@
 import "./studentMarks.css";
 
-function studentMarksPut() {
+function studentMarksUpdate() {
   return (
     <>
       <div className="marks">
-        <h1 className="heading">Insert Student Marks</h1>
+        <h1 className="heading">Update Student Marks</h1>
         <form class="row gy-2 gx-3 align-items-center">
           <div class="col-auto">
             <input
@@ -43,7 +43,7 @@ function studentMarksPut() {
         </form>
 
         <form class="row gy-2 gx-3 align-items-center">
-          <div class="col-4">
+        <div class="col-4">
             <label class="form-label text-white">
               Password
             </label>
@@ -56,7 +56,7 @@ function studentMarksPut() {
           </div>
           <div class="col-12">
             <button type="submit" class="btn btn-primary">
-              Insert
+              Update
             </button>
           </div>
         </form>
@@ -65,4 +65,4 @@ function studentMarksPut() {
   );
 }
 
-export default studentMarksPut;
+export default studentMarksUpdate;

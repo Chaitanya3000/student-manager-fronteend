@@ -1,5 +1,5 @@
-.thisPage{
-    display: flex;
+.thisPage {
+  display: flex;
 }
 
 .sidebar {
@@ -25,21 +25,19 @@
 }
 
 .marks {
-    display: flex;
-    flex-direction: column;
-    width: 70rem;
-    align-items: center;
-    gap: 2rem;
+  margin-left: 5rem;
+  display: flex;
+  flex-direction: column;
+  width: 65vw;
+  align-items: center;
+  gap: 2rem;
+  margin-top: 2rem;
 }
 
-.marks form {
-    display: flex;
-    flex-direction: column;
-    gap: 2rem;
+.heading {
+  color: whitesmoke;
 }
 
-.formItems {
-    border: none;
-    height: 2rem;
-    padding: 1rem 2rem;
+.btn {
+  margin-bottom: 5px;
 }
