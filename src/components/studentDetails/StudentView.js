@@ -20,7 +20,7 @@ function StudentView() {
         </div>
         <br />
       </form>
-      <table class="table table-success table-striped">
+      <table className="table table-success table-striped" id="table">
         <tbody>
           <tr>
             <th scope="row">Student Name</th>

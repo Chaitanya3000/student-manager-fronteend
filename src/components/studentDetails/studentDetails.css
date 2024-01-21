@@ -64,10 +64,10 @@
 }
 
 .details {
-  margin-left: 5rem;
+  padding-left: 20vw;
   /* display: flex; */
   /* flex-direction: column; */
-  width: 65vw;
+  width: 75vw;
   align-items: center;
   gap: 2rem;
   margin-top: 2rem;
@@ -87,4 +87,8 @@ p {
 
 .label {
   color: whitesmoke;
+}
+
+#table {
+  width: 40vw;
 }
